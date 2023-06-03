@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8663672503273121751}
   - component: {fileID: 8790800365517270673}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Audio Source
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 3280871916448677041}
   - component: {fileID: 8250437877053862148}
   - component: {fileID: 5031011973875158339}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: centerOfMassDebug
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -223,7 +223,7 @@ GameObject:
   - component: {fileID: 2443421309153725847}
   - component: {fileID: 2443421309152726871}
   - component: {fileID: 2443421308679927627}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: FowardRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -321,7 +321,7 @@ GameObject:
   - component: {fileID: 2443421309153725841}
   - component: {fileID: 2443421309152726865}
   - component: {fileID: 2443421309150825908}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: BackwardRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -419,7 +419,7 @@ GameObject:
   - component: {fileID: 2443421309153725845}
   - component: {fileID: 2443421309152726869}
   - component: {fileID: 2443421310035463696}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -515,7 +515,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2443421309150825911}
   - component: {fileID: 2443421310474334312}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Drone_red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -529,7 +529,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2443421309150531991}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
@@ -574,7 +574,7 @@ GameObject:
   - component: {fileID: 2443421309153725843}
   - component: {fileID: 2443421309152726867}
   - component: {fileID: 2443421309150825921}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: BackwardLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -672,7 +672,7 @@ GameObject:
   - component: {fileID: 2443421309153725853}
   - component: {fileID: 2443421309152726877}
   - component: {fileID: 2443421309150825920}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: FowardLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -767,7 +767,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2443421309430518236}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: DroneBundle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -799,7 +799,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2443421310338430131}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: CameraFollow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -834,7 +834,7 @@ GameObject:
   - component: {fileID: 7918833194818029847}
   - component: {fileID: 5693025796719427805}
   - component: {fileID: 5871569300386546146}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -918,7 +918,7 @@ GameObject:
   - component: {fileID: 6742870553264625105}
   - component: {fileID: 5299492320414086163}
   - component: {fileID: 5047517251539050047}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: BendParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5766,7 +5766,7 @@ GameObject:
   - component: {fileID: 2000165143034695485}
   - component: {fileID: 8166184467002614763}
   - component: {fileID: 3266766114510162569}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}

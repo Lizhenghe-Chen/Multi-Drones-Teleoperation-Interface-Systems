@@ -72,3 +72,4 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 # FYP project that not pushed to github
 **/Assets/FYP Resource
+**/Assets/TerrainDemoScene_URP

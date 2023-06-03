@@ -212,7 +212,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!114 &1106878526398537967
 MonoBehaviour:
@@ -740,6 +740,7 @@ MonoBehaviour:
   ctrlOptions:
     enable_Balance_PID: 0
     enableHeight_PID: 0
+    useGPSAltitude: 1
     pid_PitchBalanceVal:
       currentValue: {x: 0, y: 0, z: 0}
       targetValue: {x: 0, y: 0, z: 0}
@@ -764,6 +765,8 @@ MonoBehaviour:
   - 0
   - 0
   - 0
+  rotorSetLerp: 10
+  torqueMultiplier: 1
 --- !u!114 &6374741314341800126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -786,6 +789,7 @@ MonoBehaviour:
   isMoving: 0
   accelerator: 0
   lookInput: {x: 0, y: 0}
+  mouseLookInput: {x: 0, y: 0}
   LBInput: 0
   RBInput: 0
 --- !u!1 &7634637865811534106

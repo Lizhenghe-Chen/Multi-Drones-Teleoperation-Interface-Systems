@@ -2237,6 +2237,52 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 287580331227704905}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &548579667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c01700fd266d6914ababb731e09af2eb, type: 3}
+  m_Name: DepthOfField(Clone)
+  m_EditorClassIdentifier: 
+  active: 1
+  mode:
+    m_OverrideState: 1
+    m_Value: 2
+  gaussianStart:
+    m_OverrideState: 0
+    m_Value: 10
+  gaussianEnd:
+    m_OverrideState: 0
+    m_Value: 30
+  gaussianMaxRadius:
+    m_OverrideState: 0
+    m_Value: 1
+  highQualitySampling:
+    m_OverrideState: 0
+    m_Value: 0
+  focusDistance:
+    m_OverrideState: 1
+    m_Value: 19.23
+  aperture:
+    m_OverrideState: 1
+    m_Value: 10
+  focalLength:
+    m_OverrideState: 1
+    m_Value: 200
+  bladeCount:
+    m_OverrideState: 0
+    m_Value: 5
+  bladeCurvature:
+    m_OverrideState: 0
+    m_Value: 1
+  bladeRotation:
+    m_OverrideState: 0
+    m_Value: 0
 --- !u!1 &587320839
 GameObject:
   m_ObjectHideFlags: 0
@@ -2335,52 +2381,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &600637421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c01700fd266d6914ababb731e09af2eb, type: 3}
-  m_Name: DepthOfField(Clone)
-  m_EditorClassIdentifier: 
-  active: 1
-  mode:
-    m_OverrideState: 1
-    m_Value: 2
-  gaussianStart:
-    m_OverrideState: 1
-    m_Value: 10
-  gaussianEnd:
-    m_OverrideState: 0
-    m_Value: 30
-  gaussianMaxRadius:
-    m_OverrideState: 0
-    m_Value: 1
-  highQualitySampling:
-    m_OverrideState: 0
-    m_Value: 0
-  focusDistance:
-    m_OverrideState: 1
-    m_Value: 10
-  aperture:
-    m_OverrideState: 1
-    m_Value: 8
-  focalLength:
-    m_OverrideState: 1
-    m_Value: 100
-  bladeCount:
-    m_OverrideState: 0
-    m_Value: 5
-  bladeCurvature:
-    m_OverrideState: 0
-    m_Value: 1
-  bladeRotation:
-    m_OverrideState: 0
-    m_Value: 0
 --- !u!1 &611935527
 GameObject:
   m_ObjectHideFlags: 0
@@ -4846,52 +4846,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2443421308812839297}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1344003765
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c01700fd266d6914ababb731e09af2eb, type: 3}
-  m_Name: DepthOfField(Clone)
-  m_EditorClassIdentifier: 
-  active: 1
-  mode:
-    m_OverrideState: 1
-    m_Value: 2
-  gaussianStart:
-    m_OverrideState: 1
-    m_Value: 10
-  gaussianEnd:
-    m_OverrideState: 0
-    m_Value: 30
-  gaussianMaxRadius:
-    m_OverrideState: 0
-    m_Value: 1
-  highQualitySampling:
-    m_OverrideState: 0
-    m_Value: 0
-  focusDistance:
-    m_OverrideState: 1
-    m_Value: 10
-  aperture:
-    m_OverrideState: 1
-    m_Value: 8
-  focalLength:
-    m_OverrideState: 1
-    m_Value: 100
-  bladeCount:
-    m_OverrideState: 0
-    m_Value: 5
-  bladeCurvature:
-    m_OverrideState: 0
-    m_Value: 1
-  bladeRotation:
-    m_OverrideState: 0
-    m_Value: 0
 --- !u!1 &1367159558
 GameObject:
   m_ObjectHideFlags: 0
@@ -6370,6 +6324,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1744025405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c01700fd266d6914ababb731e09af2eb, type: 3}
+  m_Name: DepthOfField(Clone)
+  m_EditorClassIdentifier: 
+  active: 1
+  mode:
+    m_OverrideState: 1
+    m_Value: 2
+  gaussianStart:
+    m_OverrideState: 0
+    m_Value: 10
+  gaussianEnd:
+    m_OverrideState: 0
+    m_Value: 30
+  gaussianMaxRadius:
+    m_OverrideState: 0
+    m_Value: 1
+  highQualitySampling:
+    m_OverrideState: 0
+    m_Value: 0
+  focusDistance:
+    m_OverrideState: 1
+    m_Value: 19.23
+  aperture:
+    m_OverrideState: 1
+    m_Value: 10
+  focalLength:
+    m_OverrideState: 1
+    m_Value: 200
+  bladeCount:
+    m_OverrideState: 0
+    m_Value: 5
+  bladeCurvature:
+    m_OverrideState: 0
+    m_Value: 1
+  bladeRotation:
+    m_OverrideState: 0
+    m_Value: 0
 --- !u!1 &1745311629 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6977969362134120265, guid: 098bba0a109c3b14981675d2cceac33d,
@@ -8077,10 +8077,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: DroneCameras
       objectReference: {fileID: 0}
+    - target: {fileID: 6106533281893551696, guid: 098bba0a109c3b14981675d2cceac33d,
+        type: 3}
+      propertyPath: sharedProfile
+      value: 
+      objectReference: {fileID: 11400000, guid: dfe9356fecfecce448e54d8afe208ca7,
+        type: 2}
+    - target: {fileID: 6977969361594749994, guid: 098bba0a109c3b14981675d2cceac33d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.81
+      objectReference: {fileID: 0}
     - target: {fileID: 6977969361594749994, guid: 098bba0a109c3b14981675d2cceac33d,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.55399996
+      objectReference: {fileID: 0}
+    - target: {fileID: 6977969361594749994, guid: 098bba0a109c3b14981675d2cceac33d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.6099999
       objectReference: {fileID: 0}
     - target: {fileID: 6977969361594749994, guid: 098bba0a109c3b14981675d2cceac33d,
         type: 3}
@@ -8091,6 +8107,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0.09853761
+      objectReference: {fileID: 0}
+    - target: {fileID: 6977969362134120267, guid: 098bba0a109c3b14981675d2cceac33d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 6977969362134120267, guid: 098bba0a109c3b14981675d2cceac33d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.55399996
+      objectReference: {fileID: 0}
+    - target: {fileID: 6977969362134120267, guid: 098bba0a109c3b14981675d2cceac33d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.6099999
+      objectReference: {fileID: 0}
+    - target: {fileID: 6977969362134120267, guid: 098bba0a109c3b14981675d2cceac33d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99513334
+      objectReference: {fileID: 0}
+    - target: {fileID: 6977969362134120267, guid: 098bba0a109c3b14981675d2cceac33d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.09853761
+      objectReference: {fileID: 0}
+    - target: {fileID: 6977969362134120267, guid: 098bba0a109c3b14981675d2cceac33d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6977969362134120267, guid: 098bba0a109c3b14981675d2cceac33d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6997482093257257007, guid: 098bba0a109c3b14981675d2cceac33d,
         type: 3}
@@ -8240,7 +8291,7 @@ PrefabInstance:
         type: 3}
       propertyPath: dof
       value: 
-      objectReference: {fileID: 600637421}
+      objectReference: {fileID: 548579667}
     - target: {fileID: 7345002505483172225, guid: ad51881457830e1498975759461cf7c4,
         type: 3}
       propertyPath: POVCamera

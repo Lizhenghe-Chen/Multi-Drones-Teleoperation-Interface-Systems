@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 287580330929649863}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: CameraFollow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 287580330929649860}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.348, z: 1.137}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -42,7 +42,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 287580331141792510}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: DroneBundle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57,7 +57,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 287580331141792511}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.26906976, y: -0.06, z: -2.3686998}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -77,7 +77,7 @@ GameObject:
   - component: {fileID: 287580331782216544}
   - component: {fileID: 287580331783346592}
   - component: {fileID: 287580331171150391}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Drone1_Arm2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -176,7 +176,7 @@ GameObject:
   - component: {fileID: 287580331782216546}
   - component: {fileID: 287580331783346594}
   - component: {fileID: 287580331737945558}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Drone1_Arm3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -274,7 +274,7 @@ GameObject:
   - component: {fileID: 287580331785116484}
   - component: {fileID: 287580331782216548}
   - component: {fileID: 287580331783346596}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Drone1_Aereal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -358,7 +358,7 @@ GameObject:
   - component: {fileID: 287580331782216550}
   - component: {fileID: 287580331783346598}
   - component: {fileID: 287580331358367666}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Drone1_Arm1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -454,7 +454,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 287580331785116488}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Drone_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -491,7 +491,7 @@ GameObject:
   - component: {fileID: 287580331783346600}
   - component: {fileID: 287580330974709895}
   - component: {fileID: 287580330974709892}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Drone_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -613,7 +613,7 @@ GameObject:
   - component: {fileID: 287580331782216556}
   - component: {fileID: 287580331783346604}
   - component: {fileID: 287580331909013292}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Drone1_Arm4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -712,7 +712,7 @@ GameObject:
   - component: {fileID: 287580331782216558}
   - component: {fileID: 287580331783346606}
   - component: {fileID: 287580332490992403}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Drone1_Shell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -811,7 +811,7 @@ GameObject:
   - component: {fileID: 287580331782216566}
   - component: {fileID: 287580331783346614}
   - component: {fileID: 7600260130466995270}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: propeller3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -991,7 +991,7 @@ GameObject:
   - component: {fileID: 287580331782216560}
   - component: {fileID: 287580331783346608}
   - component: {fileID: 1322585933479826158}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: propeller4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1171,7 +1171,7 @@ GameObject:
   - component: {fileID: 287580331782216554}
   - component: {fileID: 287580331783346602}
   - component: {fileID: 6189371484106925095}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: propeller1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1351,7 +1351,7 @@ GameObject:
   - component: {fileID: 287580331782216564}
   - component: {fileID: 287580331783346612}
   - component: {fileID: 7137530874381565916}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: propeller2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1529,7 +1529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2317848883045571800}
   - component: {fileID: 6804772796663689963}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Audio Source
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1658,7 +1658,7 @@ GameObject:
   - component: {fileID: 1988998847377963943}
   - component: {fileID: 6748719591724821526}
   - component: {fileID: 2924554486732525241}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: centerOfMassDebug
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1742,7 +1742,7 @@ GameObject:
   - component: {fileID: 2254590988818258018}
   - component: {fileID: 3857546909113844521}
   - component: {fileID: 1652421873750774343}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: BendParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6590,7 +6590,7 @@ GameObject:
   - component: {fileID: 84047443004473466}
   - component: {fileID: 2183824046008292111}
   - component: {fileID: 1728551898691113566}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6699,7 +6699,7 @@ GameObject:
   - component: {fileID: 6517659784717869822}
   - component: {fileID: 68373455849481456}
   - component: {fileID: 483004678296334653}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
