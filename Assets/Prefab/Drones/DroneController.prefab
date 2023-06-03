@@ -735,7 +735,7 @@ MonoBehaviour:
   - {fileID: 0}
   rotorAxisBase: 0
   rotorPower: 200
-  rotorCtrlOffset: 10
+  rotorCtrlOffset: 20
   rotorCtrlOffsetSlider: {fileID: 3421714175376707062}
   ctrlOptions:
     enable_Balance_PID: 0
@@ -746,6 +746,12 @@ MonoBehaviour:
       kp: 0
       ki: 0
       kd: 0
+    pid_YawBalanceVal:
+      currentValue: {x: 0, y: 0, z: 0}
+      targetValue: {x: 0, y: 0, z: 0}
+      kp: 1
+      ki: 1
+      kd: 1
     pid_HeightControlVal:
       currentValue: {x: 0, y: 0, z: 0}
       targetValue: {x: 0, y: 0, z: 0}
@@ -780,8 +786,8 @@ MonoBehaviour:
   isMoving: 0
   accelerator: 0
   lookInput: {x: 0, y: 0}
-  LBPressed: 0
-  RBPressed: 0
+  LBInput: 0
+  RBInput: 0
 --- !u!1 &7634637865811534106
 GameObject:
   m_ObjectHideFlags: 0

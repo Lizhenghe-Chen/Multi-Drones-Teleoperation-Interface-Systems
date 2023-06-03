@@ -119,7 +119,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7345002504209027642
 RectTransform:
   m_ObjectHideFlags: 0
@@ -477,13 +477,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetController: {fileID: 7345002505483172226}
-  mainCamera: {fileID: 0}
   dataList:
     droneRigidbody: {fileID: 0}
     targetTransform: {fileID: 0}
     altitudeText: {fileID: 226833139552095362}
     speedText: {fileID: 6668197893355010024}
+    useGPSAltitude: 0
   droneCameraBundle: {fileID: 0}
+  mainCamera: {fileID: 0}
   normalColor: {r: 0, g: 1, b: 0, a: 1}
   warningColor: {r: 1, g: 0.5430124, b: 0, a: 1}
   dangerColor: {r: 1, g: 0, b: 0, a: 1}
@@ -508,7 +509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 920cf2e9dd8540c4a892ee43866b5a82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TargetTransform: {fileID: 7345002505483172229}
+  targetTransform: {fileID: 0}
   TargetPositionOffset: {x: 0, y: 1.5, z: 0}
   screenBoundOffset: 0.1
   TargetImage: {fileID: 7345002504889929973}
@@ -517,6 +518,8 @@ MonoBehaviour:
   screenPosition: {x: 0, y: 0, z: 0}
   screenBound: {x: 0, y: 0, z: 0}
   Arrowdirection: {x: 0, y: 0}
+  X_adjust: 1
+  Y_adjust: 1
 --- !u!1001 &3678233194002812692
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -844,6 +847,11 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 4278255360
       objectReference: {fileID: 0}
+    - target: {fileID: 4135573824552758310, guid: dd542aa0eec204641b986d80ac07a3a2,
+        type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd542aa0eec204641b986d80ac07a3a2, type: 3}
 --- !u!114 &226833139552095362 stripped
@@ -871,6 +879,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7345002505483172229}
     m_Modifications:
+    - target: {fileID: 5317756686779209260, guid: 4df4cffdede5c75469d7be2ae8c4a832,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5317756686779209260, guid: 4df4cffdede5c75469d7be2ae8c4a832,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5317756686779209260, guid: 4df4cffdede5c75469d7be2ae8c4a832,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5317756686779209260, guid: 4df4cffdede5c75469d7be2ae8c4a832,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7496736452894636705, guid: 4df4cffdede5c75469d7be2ae8c4a832,
         type: 3}
       propertyPath: m_Name

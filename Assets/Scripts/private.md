@@ -1,1 +1,1 @@
-The files inside this folder will not be included in GitHub repository for protection purpouse.
+some of files inside this folder will not be included in GitHub repository for protection purpouse.

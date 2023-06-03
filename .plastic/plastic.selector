@@ -1,4 +1,4 @@
-repository "FYP Project@DoggyChen@cloud"
+repository "Multi Drones Teleoperation Interface Systems@DoggyChen@cloud"
   path "/"
     br "/main"
     co "/main"
