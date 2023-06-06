@@ -433,7 +433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   campassRadius: 500
-  rollBar: {fileID: 0}
+  rollBar: {fileID: 2453051545482717862}
   tickLargePrefab: {fileID: 7452188193342495323, guid: 32609dfb53545954c8084d8594ea2602,
     type: 3}
   tickSmallPrefab: {fileID: 7899657311120522380, guid: 2f45d319b2dadf047bdcc43505eb72ca,

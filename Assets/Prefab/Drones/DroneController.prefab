@@ -792,6 +792,7 @@ MonoBehaviour:
   mouseLookInput: {x: 0, y: 0}
   LBInput: 0
   RBInput: 0
+  POVCameraEnable: 1
 --- !u!1 &7634637865811534106
 GameObject:
   m_ObjectHideFlags: 0

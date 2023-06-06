@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3001963711224875831
 Transform:
   m_ObjectHideFlags: 0
@@ -372,7 +372,7 @@ MonoBehaviour:
     m_InputAxisValue: 0.5
     m_InvertInput: 1
     m_MinValue: -70
-    m_MaxValue: 70
+    m_MaxValue: 90
     m_Wrap: 0
     m_Recentering:
       m_enabled: 0
@@ -551,7 +551,7 @@ Camera:
   m_FOVAxisMode: 0
   m_SensorSize: {x: 1, y: 1}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 0.7
+  m_FocalLength: 0.6
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -560,9 +560,9 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 10000
-  field of view: 71.075356
+  field of view: 79.611145
   orthographic: 0
-  orthographic size: 10
+  orthographic size: 5
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -632,7 +632,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShowDebugText: 0
-  m_ShowCameraFrustum: 1
+  m_ShowCameraFrustum: 0
   m_IgnoreTimeScale: 0
   m_WorldUpOverride: {fileID: 0}
   m_UpdateMethod: 2
@@ -686,7 +686,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6977969362134120267
 Transform:
   m_ObjectHideFlags: 0

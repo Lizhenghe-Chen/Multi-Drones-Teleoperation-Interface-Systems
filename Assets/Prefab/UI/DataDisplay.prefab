@@ -1117,19 +1117,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7496736452894636707, guid: 4df4cffdede5c75469d7be2ae8c4a832,
         type: 3}
-      propertyPath: rollBar
-      value: 
-      objectReference: {fileID: 5180350953148394670}
-    - target: {fileID: 7496736452894636707, guid: 4df4cffdede5c75469d7be2ae8c4a832,
-        type: 3}
       propertyPath: horizontalBar
       value: 
       objectReference: {fileID: 5180350953148394670}
-    - target: {fileID: 7496736452894636707, guid: 4df4cffdede5c75469d7be2ae8c4a832,
-        type: 3}
-      propertyPath: planeTransform
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4df4cffdede5c75469d7be2ae8c4a832, type: 3}
 --- !u!224 &1001895650398174378 stripped
