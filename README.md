@@ -1,4 +1,9 @@
 # FYP-Project
+#### 请注意：该项目部分文件目前是被隐藏的，所以直接下载项目在Unity里打开会报错  
+#### Please note: Some of the project files are currently hidden, so directly downloading the project will give an error when opening in Unity
+
+<hr>  
+
 **The project is divided into two parts**  
 
 * One part is a personal self-developed attempt at quadcopter flight simulation, including realistic physical simulation (lift, centre, torque, camera, etc.), while accessing a wealth of control methods, such as joystick, keyboard, and subsequent flexible expansion of control methods. In addition, I have independently tried and developed flight control systems, such as PID control, which have achieved horizontal stabilisation, altitude stabilisation and manoeuvre assistance functions, with more functions to be added subsequently. Also a HUD (Head Up Display) is being developed to display the flight status of the UAV. The project is currently in the process of being developed, and the current version is 0.1.0. The project is developed using Unity3D and C#.   
