@@ -768,7 +768,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2443421309430518236}
   m_Layer: 2
-  m_Name: DroneBundle1
+  m_Name: DroneBundle(Plastic)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
