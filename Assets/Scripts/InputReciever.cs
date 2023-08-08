@@ -10,6 +10,7 @@ using System.Collections;
 /* 
 * Copyright (c) [2023] [Lizhneghe.Chen https://github.com/Lizhenghe-Chen]
 * Please do not use these code directly without permission.
+* https://gamedevbeginner.com/input-in-unity-made-easy-complete-guide-to-the-new-system/
 */
 public class InputReciever : MonoBehaviour
 {
@@ -20,6 +21,8 @@ public class InputReciever : MonoBehaviour
     //[SerializeField] private float joystickToScreenRatio = 17;
     [SerializeField] private Image leftJoystick;
     [SerializeField] private Image rightJoystick;
+    public bool enableRightJoystickCurve = false;
+    public float stickDamp = 0.1f;
     [SerializeField] private AnimationCurve rightJoystickCurve;
     [SerializeField] private Image acceleratorBar;
     [SerializeField] private Image yawLeftBar, yawRightBar;
@@ -30,7 +33,8 @@ public class InputReciever : MonoBehaviour
 
     [Header("Input Debug & Message Data:")]
     public Vector2 leftStick;
-    public Vector2 rightStcikRaw, rightStcik;
+    public Vector2 rightStcikRaw, rightStick;
+
     public bool isAccelerating, onRightJoystick;
     public float accelerator;
 
@@ -97,16 +101,13 @@ public class InputReciever : MonoBehaviour
         //        Debug.Log(value.Get<Vector2>());
         //use rightJoystickCurve to make the input more linear and keep the input value for 2 decimal places
         rightStcikRaw = value.Get<Vector2>();
-        rightStcik = new Vector2(
-            rightJoystickCurve.Evaluate(rightStcikRaw.x),
-            rightJoystickCurve.Evaluate(rightStcikRaw.y)
-            );
-        //rightStcik = value.Get<Vector2>();
-        onRightJoystick = rightStcik.magnitude > 0.01;
-        //        Debug.Log(onRightJoystick);
-        DebugJoyStick();
+        // rightStick = new Vector2(
+        //     rightJoystickCurve.Evaluate(rightStcikRaw.x),
+        //     rightJoystickCurve.Evaluate(rightStcikRaw.y)
+        //     );
+        //give a damping effect to the joystick using damp
+        
     }
-
     private void OnRightArrow(InputValue value)
     {
         droneCtrl.Height_Balance_PID();
@@ -124,6 +125,17 @@ public class InputReciever : MonoBehaviour
     {
         RBInput = value.Get<float>();
         DebugYaw();
+    }
+    private void OnLeftBumper(InputValue value)
+    {
+        //get the button value to judge if the button is pressed
+        Debug.Log("OnLeftBumper");
+        droneCtrl.ropeCtrl.isShrink = value.isPressed;
+    }
+    private void OnRightBumper(InputValue value)
+    {
+        Debug.Log("OnRightBumper");
+        droneCtrl.ropeCtrl.isExtend = value.isPressed;
     }
     [SerializeField] bool POVCameraEnable = true;
     private void OnSetPOVCameraInput()//tap
@@ -165,9 +177,9 @@ public class InputReciever : MonoBehaviour
     private void DebugJoyStick()
     {
         if (!debug) return;
-         joyStickDebugOffset = 15f / 196f * Screen.width ;
+        joyStickDebugOffset = 15f / 196f * Screen.width;
         // leftJoystick.transform.position = leftJoystick_initialPos + new Vector3(leftStick.x * 100, leftStick.y * 100, 0);
-        rightJoystick.transform.position = rightJoystick.transform.parent.position + new Vector3(rightStcik.x, rightStcik.y, 0) * joyStickDebugOffset;
+        rightJoystick.transform.position = rightJoystick.transform.parent.position + new Vector3(rightStick.x, rightStick.y, 0) * joyStickDebugOffset;
     }
     private void DebugAccelerator()
     {
@@ -177,12 +189,25 @@ public class InputReciever : MonoBehaviour
     private void DebugYaw()
     {
         if (!debug) return;
-       
+
         yawLeftBar.fillAmount = LBInput * 0.5f;
         yawRightBar.fillAmount = RBInput * 0.5f;
     }
-    private void FixedUpdate()
-    {
+    private void Update() {
+        
+    }
+    private void LateUpdate()
+    {rightStick = enableRightJoystickCurve ? Vector2.Lerp(rightStick,
+        new Vector2(
+            rightJoystickCurve.Evaluate(rightStcikRaw.x),
+            rightJoystickCurve.Evaluate(rightStcikRaw.y)
+            ), Time.deltaTime * stickDamp) : rightStcikRaw;
+
+        onRightJoystick = rightStick.magnitude > 0.01;
+
+
+        //        Debug.Log(onRightJoystick);
+        DebugJoyStick();
         {
             if (joystickTrailImageListIndex >= joystickTrailImageList.Count) joystickTrailImageListIndex = 0;
             joystickTrailImageList[joystickTrailImageListIndex].transform.position = rightJoystick.transform.position;

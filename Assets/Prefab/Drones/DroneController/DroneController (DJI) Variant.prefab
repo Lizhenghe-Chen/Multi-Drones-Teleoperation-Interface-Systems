@@ -80,6 +80,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6374741314341800126, guid: cb7b90a59e734cf40ba1e2281a7242f1,
         type: 3}
+      propertyPath: stickDamp
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6374741314341800126, guid: cb7b90a59e734cf40ba1e2281a7242f1,
+        type: 3}
       propertyPath: joyStickDebugOffset
       value: 146.93878
       objectReference: {fileID: 0}
@@ -87,6 +92,11 @@ PrefabInstance:
         type: 3}
       propertyPath: joystickToScreenRatio
       value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 6374741314341800126, guid: cb7b90a59e734cf40ba1e2281a7242f1,
+        type: 3}
+      propertyPath: enableRightJoystickCurve
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6374741314341800126, guid: cb7b90a59e734cf40ba1e2281a7242f1,
         type: 3}

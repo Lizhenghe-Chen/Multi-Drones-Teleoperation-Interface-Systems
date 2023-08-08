@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &739244037060153203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8800734400059737303}
+  - component: {fileID: 2137133735972422732}
+  - component: {fileID: 3369760843427336305}
+  m_Layer: 0
+  m_Name: Single_Data_Debug
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8800734400059737303
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739244037060153203}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2137133735972422732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739244037060153203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6884e16cfcbe54c9c1f0f98796a8e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputReciever: {fileID: 0}
+  dataDisplay: {fileID: 0}
+  droneCtrl: {fileID: 0}
+  debugAltitude:
+    key: Altitude
+    title: Altitude
+    min: -10
+    max: 50
+    group: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+    autoScale: 0
+  debugTargetAltitude:
+    key: targetAltitude
+    title: targetAltitude
+    min: -10
+    max: 50
+    group: 1
+    color: {r: 0, g: 0.9436171, b: 1, a: 1}
+    autoScale: 0
+  Rotors:
+  - key: fowardLeft
+    title: fowardLeft
+    min: 0
+    max: 0
+    group: 0
+    color: {r: 1, g: 0, b: 0, a: 1}
+    autoScale: 1
+  - key: fowardRight
+    title: fowardRight
+    min: 0
+    max: 0
+    group: 0
+    color: {r: 1, g: 0.48850036, b: 0, a: 1}
+    autoScale: 1
+  - key: backLeft
+    title: backLeft
+    min: 0
+    max: 0
+    group: 0
+    color: {r: 0, g: 1, b: 0, a: 1}
+    autoScale: 1
+  - key: backRight
+    title: backRight
+    min: 0
+    max: 0
+    group: 0
+    color: {r: 0, g: 1, b: 1, a: 0}
+    autoScale: 1
+--- !u!114 &3369760843427336305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739244037060153203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 902b767a45c917245b420593501210c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawInBuild: 1
+  displayGraphs: 1
+  displayLogs: 1
+  backgroundColor: {r: 0, g: 0, b: 0, a: 0.7}
+  graphs: []

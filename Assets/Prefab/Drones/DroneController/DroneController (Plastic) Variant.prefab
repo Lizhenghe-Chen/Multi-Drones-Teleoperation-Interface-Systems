@@ -285,6 +285,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7168236085527663051, guid: cb7b90a59e734cf40ba1e2281a7242f1,
         type: 3}
+      propertyPath: pid_PositionControl.targetVectorDamper
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7168236085527663051, guid: cb7b90a59e734cf40ba1e2281a7242f1,
+        type: 3}
       propertyPath: pid_HeightControl.derivative.Array.size
       value: 1
       objectReference: {fileID: 0}

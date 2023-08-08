@@ -196,7 +196,7 @@ PrefabInstance:
     - target: {fileID: 7168236085527663051, guid: cb7b90a59e734cf40ba1e2281a7242f1,
         type: 3}
       propertyPath: rotorPower
-      value: 500
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 7168236085527663051, guid: cb7b90a59e734cf40ba1e2281a7242f1,
         type: 3}
@@ -231,7 +231,7 @@ PrefabInstance:
     - target: {fileID: 7168236085527663051, guid: cb7b90a59e734cf40ba1e2281a7242f1,
         type: 3}
       propertyPath: batteryDecreaseRate
-      value: 0.01
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 7168236085527663051, guid: cb7b90a59e734cf40ba1e2281a7242f1,
         type: 3}
@@ -251,17 +251,17 @@ PrefabInstance:
     - target: {fileID: 7168236085527663051, guid: cb7b90a59e734cf40ba1e2281a7242f1,
         type: 3}
       propertyPath: pid_HeightControl.kd
-      value: 10
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 7168236085527663051, guid: cb7b90a59e734cf40ba1e2281a7242f1,
         type: 3}
       propertyPath: pid_HeightControl.ki
-      value: 50
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 7168236085527663051, guid: cb7b90a59e734cf40ba1e2281a7242f1,
         type: 3}
       propertyPath: pid_HeightControl.kp
-      value: 300
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 7168236085527663051, guid: cb7b90a59e734cf40ba1e2281a7242f1,
         type: 3}
@@ -271,12 +271,12 @@ PrefabInstance:
     - target: {fileID: 7168236085527663051, guid: cb7b90a59e734cf40ba1e2281a7242f1,
         type: 3}
       propertyPath: pid_PositionControl.ki
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7168236085527663051, guid: cb7b90a59e734cf40ba1e2281a7242f1,
         type: 3}
       propertyPath: pid_PositionControl.kp
-      value: 5
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 7168236085527663051, guid: cb7b90a59e734cf40ba1e2281a7242f1,
         type: 3}
@@ -420,13 +420,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7168236085527663051, guid: cb7b90a59e734cf40ba1e2281a7242f1,
         type: 3}
+      propertyPath: pid_PositionControl.longDistanceDamp_D
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7168236085527663051, guid: cb7b90a59e734cf40ba1e2281a7242f1,
+        type: 3}
       propertyPath: pid_PositionControl.targetVectorDamper
-      value: 0.2
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7168236085527663051, guid: cb7b90a59e734cf40ba1e2281a7242f1,
         type: 3}
       propertyPath: pid_HeightControl.derivative.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7168236085527663051, guid: cb7b90a59e734cf40ba1e2281a7242f1,
+        type: 3}
+      propertyPath: pid_PositionControl.shortDistanceDamp_D
+      value: -0.4
       objectReference: {fileID: 0}
     - target: {fileID: 7168236085527663051, guid: cb7b90a59e734cf40ba1e2281a7242f1,
         type: 3}
@@ -500,6 +510,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7168236085527663051, guid: cb7b90a59e734cf40ba1e2281a7242f1,
         type: 3}
+      propertyPath: pid_PositionControl.targetPointDistanceTolerance
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7168236085527663051, guid: cb7b90a59e734cf40ba1e2281a7242f1,
+        type: 3}
       propertyPath: grassBenderCurve.m_Curve.Array.data[0].tangentMode
       value: 0
       objectReference: {fileID: 0}
@@ -536,7 +551,7 @@ PrefabInstance:
     - target: {fileID: 7227618101662743874, guid: cb7b90a59e734cf40ba1e2281a7242f1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7227618101662743874, guid: cb7b90a59e734cf40ba1e2281a7242f1,
         type: 3}
