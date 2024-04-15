@@ -11,6 +11,7 @@
 Dev Log and showcases:  
 [YouTube]
 [![](https://github.com/Lizhenghe-Chen/Multi-Drones-Teleoperation-Interface-Systems/assets/61171413/086b5374-7d6c-4db4-b68f-4094db35e5e5)](https://youtu.be/UpD6_7_Ckxw?si=kjc-rPW-pZTAFvIE)
+[YouTube](https://youtu.be/UpD6_7_Ckxw?si=qQFGNS5B1RbOUib6)  
 [Bilibili A](https://www.bilibili.com/video/BV1ja4y157JM/?spm_id_from=333.788.recommend_more_video.0&vd_source=964bbd88f350a12d2453698dd08ec8ca)    
 [Bilibili B](https://www.bilibili.com/video/BV11z4y1v7w7/?vd_source=964bbd88f350a12d2453698dd08ec8ca#reply572080926)  
 
